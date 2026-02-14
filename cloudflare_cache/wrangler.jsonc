@@ -19,7 +19,7 @@
 		{
 			"binding": "DB",
 			"database_name": "poi-cache",
-			"database_id": "213aa41c-b277-4f78-92e0-fa6b658b07c8"
+			"database_id": ""
 		}
 	],
 	"durable_objects": {
