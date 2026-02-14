@@ -1,0 +1,73 @@
+{
+  "name": "overpass-cache",
+  "version": "1.0.0",
+  "description": "Find OpenStreetMaps points of interest (POI) with query builder and shared cache. Easy, efficient, open source for Node and browser.",
+  "files": [
+    "dist/",
+    "cloudflare_cache/"
+  ],
+  "keywords": [
+    "poi",
+    "point",
+    "of",
+    "interest",
+    "points",
+    "category",
+    "coordinate",
+    "lat",
+    "long",
+    "latitude",
+    "longitude",
+    "coord",
+    "coords",
+    "zip",
+    "zipcode",
+    "code",
+    "city",
+    "osm",
+    "open",
+    "street",
+    "map",
+    "openstreetmap",
+    "local",
+    "locally",
+    "offline",
+    "nearby"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "NuCommunity Nonprofit (Jake Ware)",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "deploy-cloudflare-cache": "./cloudflare_cache/deploy.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bs58": "^6.0.0",
+    "coord-zip-city": "^1.0.13",
+    "isomorphic-ws": "^5.0.0",
+    "overpass-ts": "^4.3.8"
+  },
+  "peerDependencies": {
+    "level": "^10.0.0",
+    "unishox2.siara.cc": "^1.1.5",
+	"brotli-wasm": "^3.0.1"
+  },
+  "peerDependenciesMeta": {
+    "unishox2.siara.cc": {
+      "optional": true
+    },
+    "brotli-wasm": {
+      "optional": true
+    },
+    "level": {
+      "optional": false
+    }
+  },
+  "devDependencies": {
+    "unishox2.siara.cc": "^1.1.5",
+	"brotli-wasm": "^3.0.1"
+  }
+}
